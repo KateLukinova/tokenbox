@@ -136,7 +136,7 @@ header {
   align-items: center; }
 
 .main-page {
-  height: 100vh;
+  height: 830px;
   padding: 80px 0;
   box-sizing: border-box;
   display: flex;
@@ -446,6 +446,7 @@ strong {
 .next-prizes {
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -477,6 +478,38 @@ strong {
     background: linear-gradient(217.52deg, #C57BFF 7.65%, #9206FF 96.36%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
+
+.add-prizes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1150px;
+  margin: 60px auto 120px auto; }
+  .add-prizes .add-prizes-item {
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #28334E; }
+    .add-prizes .add-prizes-item .img {
+      height: 235px;
+      margin-bottom: 20px;
+      object-fit: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 30px;
+      box-shadow: 0px 35px 48px rgba(0, 0, 0, 0.2);
+      background-color: transparent; }
+      .add-prizes .add-prizes-item .img img {
+        min-height: 100%;
+        min-width: 100%; }
 
 .carousel-nav-box {
   display: -webkit-box;
@@ -2726,6 +2759,13 @@ form.settings {
   .arrow-back:hover .back-icon {
     background-color: #d9ddde; }
 
+@media (max-width: 1200px) {
+  .add-prizes {
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .add-prizes .add-prizes-item {
+      margin-bottom: 20px;
+      min-width: 360px; } }
 @media (max-width: 990px) {
   .step-block .steps {
     justify-content: space-around;
@@ -2802,6 +2842,12 @@ form.settings {
       width: 180px; }
 
   .top-padd {
-    padding-top: 0; } }
+    padding-top: 0; }
+
+  .add-prizes .add-prizes-item {
+    min-width: auto;
+    width: 100%; }
+    .add-prizes .add-prizes-item .img {
+      width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
