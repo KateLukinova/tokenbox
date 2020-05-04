@@ -650,7 +650,6 @@ strong {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 10px 30px;
         background-color: transparent;
         transition: all 0.3s ease;
         height: auto;
@@ -658,11 +657,13 @@ strong {
         text-align: center;
         overflow: hidden;
         border-radius: 30px;
-
+        width: 90%;
+        margin: 0 60px;
         img {
             width: 100%;
             min-height: 100%;
             object-fit: cover;
+            max-width: 1150px;
         }
         &.slick-current,
         &.slick-center {
@@ -672,7 +673,6 @@ strong {
         }
         &.slick-center {
             transform: scale(1.1);
-            margin: 0 30px;
         }
     }
 }
@@ -981,6 +981,11 @@ footer {
         height: 900px;
         .benefits  {
             margin-bottom: 0;
+        }
+    }
+    .slick-slider {
+        .slick-slide {
+            margin: 0 20px;
         }
     }
 }

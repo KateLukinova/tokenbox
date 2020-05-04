@@ -24,7 +24,15 @@ $( document ).ready(function() {
         adaptiveHeight: true,
         loop: true,
         infinite: true,
-        centerPadding: '120px'
+        centerPadding: '120px',
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    centerPadding: '40px',
+                }
+            }
+        ]
     });
 
 });
