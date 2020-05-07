@@ -14,25 +14,20 @@ $( document ).ready(function() {
         }
     });
 
-    $('.slick-slider').slick({
-        centerMode: true,
-        slidesToShow: 1,
-        dots: false,
-        arrows: false,
-        swipe: true,
-        swipeToSlide: true,
-        adaptiveHeight: true,
-        loop: true,
-        infinite: true,
-        centerPadding: '120px',
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    centerPadding: '40px',
-                }
-            }
-        ]
+    var $owl = $('.owl-carousel');
+
+    $owl.children().each( function( index ) {
+        $(this).attr( 'data-position', index ); // NB: .attr() instead of .data()
     });
 
+    $owl.owlCarousel({
+        center: true,
+        loop: true,
+        items: 2.3,
+    });
+
+    $(document).on('click', '.owl-item>div', function() {
+        var $speed = 300;  // in ms
+        $owl.trigger('to.owl.carousel', [$(this).data( 'position' ), $speed] );
+    });
 });
