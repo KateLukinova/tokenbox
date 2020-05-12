@@ -1,7 +1,3 @@
-//загрузка сверху страницы
-window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
-}
 
 $( document ).ready(function() {
 
@@ -23,7 +19,10 @@ $( document ).ready(function() {
     $owl.owlCarousel({
         center: true,
         loop: true,
-        items: 2.3,
+        items: 1.6,
+        autoplay:true,
+        autoplayTimeout: 3000,
+        smartSpeed: 1000
     });
 
     $(document).on('click', '.owl-item>div', function() {

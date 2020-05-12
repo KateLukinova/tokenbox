@@ -15,8 +15,7 @@
   font-style: normal; }
 @font-face {
   font-family: 'Gilroy-Bold';
-  src: url("../fonts/Gilroy-Bold.eot");
-  src: local("../fonts/Gilroy Bold"), local("Gilroy-Bold"), url("../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.ttf") format("truetype");
+  src: local("Gilroy Bold"), local("Gilroy-ExtraBold"), url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
 /*reset css*/
@@ -292,8 +291,7 @@ header {
     -webkit-transform: translateY(-3px);
     transform: translateY(-3px); }
   .button-primary:focus {
-    background-color: #EA3410;
-    border: 2px solid #111111; }
+    background-color: #5CC99D; }
   .button-primary.disabled {
     background-color: #E3E5E6;
     color: white; }
@@ -314,8 +312,7 @@ header {
   overflow: hidden;
   margin-bottom: 120px; }
   .video-block video {
-    width: 100%;
-    position: relative; }
+    width: 100%; }
 
 strong {
   font-family: 'Gilroy-ExtraBold', sans-serif; }
@@ -734,7 +731,10 @@ strong {
   box-sizing: border-box;
   width: 100%; }
   .media-block .owl-carousel {
-    transform: translateY(-30%); }
+    transform: translateY(-40%);
+    transition: all 0.5s ease; }
+    .media-block .owl-carousel.mobile {
+      display: none; }
   .media-block .media {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -999,17 +999,29 @@ footer {
             border-right: none;
             padding-right: 0; }
 
+.owl-item {
+  padding-bottom: 40px; }
+
 .owl-item > div {
+  border-radius: 30px;
   cursor: pointer;
-  margin: 6% 8%;
-  transition: margin 0.4s ease; }
+  margin: 1% 0;
+  transition: all 0.5s ease;
+  overflow: hidden;
+  transform: scale(0.7);
+  box-shadow: 0 22px 32px rgba(0, 0, 0, 0.12); }
+  .owl-item > div .img-wrap img {
+    min-width: 100%;
+    object-fit: cover;
+    height: 100%; }
 
 .owl-item.center > div {
   cursor: auto;
-  margin: 0; }
+  margin: 0;
+  transform: scale(1); }
 
-.owl-item:not(.center) > div:hover {
-  opacity: .75; }
+.otr-margin {
+  margin-top: -150px; }
 
 @media (max-width: 1200px) {
   .add-prizes {
@@ -1127,7 +1139,10 @@ footer {
       margin-bottom: 0; }
 
   .slick-slider .slick-slide {
-    margin: 0 20px; } }
+    margin: 0 20px; }
+
+  .media-block .media .media-item {
+    margin-left: 0; } }
 @media (max-width: 640px) {
   footer .nav-block {
     -webkit-box-orient: vertical;
@@ -1137,7 +1152,29 @@ footer {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    max-width: 170px; } }
+    max-width: 170px; }
+
+  .benefits-block {
+    padding: 50px 0;
+    height: 960px;
+    margin-bottom: 40px; }
+
+  .owl-item > div {
+    border-radius: 20px; }
+    .owl-item > div .img-wrap {
+      height: 440px; }
+      .owl-item > div .img-wrap img {
+        object-position: left top; }
+
+  .media-block .owl-carousel {
+    -webkit-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    transform: translateY(-20%); }
+    .media-block .owl-carousel.mobile {
+      display: block;
+      margin-bottom: 40px; }
+    .media-block .owl-carousel.desktop {
+      display: none; } }
 @media (max-width: 440px) {
   .button-play {
     width: 40px;
@@ -1148,12 +1185,14 @@ footer {
       height: 12px; }
 
   .main-page {
-    padding: 40px 0;
-    height: 500px; }
+    padding: 20px 0;
+    height: 635px;
+    margin-bottom: 70px; }
 
   .logo {
     font-size: 16px;
-    margin-bottom: 40px; }
+    margin-bottom: 35px;
+    padding-bottom: 5px; }
 
   h2 {
     font-size: 16px; }
@@ -1222,11 +1261,6 @@ footer {
 
   .add-prizes {
     margin: 60px auto;
-    margin-bottom: 30px; }
-
-  .benefits-block {
-    padding: 50px 0;
-    height: 1020px;
-    margin-bottom: 40px; } }
+    margin-bottom: 30px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -21,14 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="99f51885-a363-40bd-9c44-a2ec2310dbfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/slick.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gffg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/left-bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/left-bg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/lent.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/lent.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/multi.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/us.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/slick.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +112,16 @@
       <workItem from="1588491162271" duration="23057000" />
       <workItem from="1588570478077" duration="28861000" />
       <workItem from="1588671443886" duration="3338000" />
-      <workItem from="1588846936413" duration="4248000" />
+      <workItem from="1588846936413" duration="4954000" />
+      <workItem from="1588857259588" duration="2303000" />
+      <workItem from="1588926339282" duration="6441000" />
+      <workItem from="1588940816870" duration="2267000" />
+      <workItem from="1588946882774" duration="940000" />
+      <workItem from="1589007859608" duration="604000" />
+      <workItem from="1589099873326" duration="3813000" />
+      <workItem from="1589203521474" duration="5769000" />
+      <workItem from="1589225053021" duration="521000" />
+      <workItem from="1589266116148" duration="673000" />
     </task>
     <servers />
   </component>
@@ -130,10 +141,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1588695145043">
+    <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1589211688951">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="740" y="335" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1588695145043" />
+    <state x="740" y="335" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1589211688951" />
     <state x="656" y="311" width="607" height="538" key="find.popup" timestamp="1585665376275">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
