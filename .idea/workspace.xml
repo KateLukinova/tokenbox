@@ -21,16 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="99f51885-a363-40bd-9c44-a2ec2310dbfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gffg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/left-bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/left-bg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/lent.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/lent.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/multi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/star.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/us.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +111,8 @@
       <workItem from="1589099873326" duration="3813000" />
       <workItem from="1589203521474" duration="5769000" />
       <workItem from="1589225053021" duration="521000" />
-      <workItem from="1589266116148" duration="673000" />
+      <workItem from="1589266116148" duration="1325000" />
+      <workItem from="1589378887076" duration="142000" />
     </task>
     <servers />
   </component>

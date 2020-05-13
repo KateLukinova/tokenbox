@@ -155,7 +155,8 @@ header {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  padding-top: 25px; }
 
 .main-page {
   height: 830px;
